@@ -4,12 +4,12 @@
 ## Scoring Template
 
 For each section, score yourself:
-0 – No experience
-1 – Basic understanding
-2 – Can apply with guidance
-3 – Independent and reliable
-4 – Advanced; can work independently and mentor others
-5 – Expert; Language Guru level
+0 - No experience
+1 - Basic understanding
+2 - Can apply with guidance
+3 - Independent and reliable
+4 - Advanced; can work independently and mentor others
+5 - Expert; Language Guru level
 
 
 ## Core C++ Language Fundamentals
