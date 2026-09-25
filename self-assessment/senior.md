@@ -19,7 +19,7 @@ For each section, score yourself:
 * [ ] I can predict when RVO/NRVO will or will not occur
 * [ ] I can design APIs that avoid unnecessary copies and allocations.
 * [ ] I understand reference collapsing rules and forwarding references
-* [ ] I can write a constexpr code and know when it’s beneficial
+* [ ] I can write constexpr code and know when it is beneficial
 
 ### Templates & Metaprogramming
 * [ ] I know when to use templates and when not to
@@ -42,11 +42,11 @@ For each section, score yourself:
 
 ### Concurrency & Parallelism
 * [ ] I can write multithreaded code using threads, futures & stop tokens
-* [ ] I understand  C++ memory model: sequencing, happens‑before, and data race rules
+* [ ] I understand the C++ memory model: sequencing, happens-before, and data race rules
 * [ ] I know when to use atomics, memory orders, and fences
-* [ ] I can difference difference between lock‑free or wait‑free structures
+* [ ] I can explain the difference between lock-free and wait-free structures
 * [ ] I understand meaning of SPSC, SPMC, MPSC & MPMC
-* [ ] I can design thread-safe queue
+* [ ] I can design a thread-safe queue
 * [ ] I can design thread pools and async pipelines
 * [ ] I can find deadlocks and race conditions using sanitizers
 
@@ -60,6 +60,10 @@ For each section, score yourself:
   * [ ] std::expected
 * [ ] I understand layering, dependency management, and ABI stability
 * [ ] I can apply design patterns appropriately (not dogmatically)
+* [ ] I can design scalable and maintainable systems
+* [ ] I understand layered, microservices, and event-driven architecture patterns
+* [ ] I can evaluate performance considerations and trade-offs at system level
+* [ ] I can debug and profile complex systems at system level
 
 ### Testing & Quality
 * [ ] I can design unit tests using GoogleTest or Catch2

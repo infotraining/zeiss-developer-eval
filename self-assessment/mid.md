@@ -27,6 +27,12 @@ For each section, score yourself:
 * [ ] I can write simple generic algorithms that work with iterators and range-like abstractions
 * [ ] I understand namespace scope and argument-dependent lookup and can debug associated lookup issues
 
+### Multithreading & Concurrency
+* [ ] I can use `std::thread` and `std::jthread` appropriately
+* [ ] I can use mutexes, lock guards, condition variables, and latches for synchronization
+* [ ] I can identify and prevent race conditions and deadlocks
+* [ ] I can use sanitizers to investigate concurrency issues
+
 ### Standard Library & Generic Programming
 * [ ] I can select the right STL container for a given problem and explain trade-offs
 * [ ] I understand iterator-based programming and can work with standard algorithms effectively
@@ -50,5 +56,9 @@ For each section, score yourself:
 ### Testing & Reliability
 * [ ] I can write unit tests for non-trivial functionality
 * [ ] I can use GoogleTest effectively for assertions, fixtures, and test organization
+* [ ] I can use GoogleMock to write mocks and stubs and understand the difference between them
 * [ ] I understand the value of automated tests in preventing regressions
 * [ ] I can review code with an eye toward correctness, maintainability, and testability
+
+### Documentation
+* [ ] I can document C++ code with Doxygen and generate documentation from source comments

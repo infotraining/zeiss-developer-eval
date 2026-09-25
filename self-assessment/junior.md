@@ -21,6 +21,10 @@ For each section, score yourself:
 * [ ] I know how to avoid common UB traps (dangling pointers, double delete, out‑of‑bounds)
 * [ ] I know how to overload operators in C++ (e.g., +, -, ==, <<, >>)
 * [ ] I know how to use cast operators (static_cast, dynamic_cast, const_cast, reinterpret_cast)
+* [ ] I understand the basic exception-safety guarantees
+* [ ] I understand value semantics and reference/pointer semantics
+* [ ] I can pass arguments and return values efficiently
+* [ ] I understand headers, translation units, and the basics of linking
 
 ## Modern C++ Essentials
 * [ ] I understand move semantics at a conceptual level
@@ -37,12 +41,17 @@ For each section, score yourself:
 * [ ] I can use Git (branching, merging, resolving conflicts)
 * [ ] I can debug with GDB or an IDE debugger
 * [ ] I can use sanitizers like AddressSanitizer or UndefinedBehaviorSanitizer
+* [ ] I can use static analysis tools such as clang-tidy
+* [ ] I understand logging levels and can use a logging library appropriately
+* [ ] I can build a C++ project with CMake
+* [ ] I can invoke g++ or clang++ from the command line and interpret compiler errors
 
 ## Computer Science Foundations
 * [ ] I understand Big‑O complexity
 * [ ] I can implement basic data structures (list, stack, queue)
 * [ ] I understand how hash tables and trees work conceptually
 * [ ] I can reason about algorithmic efficiency
+* [ ] I understand how SOLID principles help avoid strong coupling
 
 ## Multithreading & Concurrency
 * [ ] I know what a race condition is
@@ -50,6 +59,8 @@ For each section, score yourself:
 * [ ] I know how to start and join a thread using std::jthread
 
 ## Software Engineering Habits
+* [ ] I can write unit tests with GoogleTest
+* [ ] I understand the purpose of unit test frameworks
 * [ ] I write readable, consistent code
 * [ ] I can explain my design decisions
 * [ ] I can read and understand someone else’s code
