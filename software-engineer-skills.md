@@ -16,17 +16,18 @@
 
 ## Software Engineering
 - Git - branching, committing, merging, basic workflows
+- Static analysis tools - clang-tidy, etc.
+- Logging - using logging libraries; Understanding log levels and best practices
+- Debugging - using Visual Studio debugger
 - Build systems - especially **CMake**, now industry standard for C++ projects
 - Compiler usage - invoking `g++` / `clang++` from command line, reading error messages
 - Data structures - arrays, lists, stacks, queues, trees
 - Algorithms - sorting, searching, complexity basics (Big-O intuition)
-- SOLID
-- How to avoid strong coupling in code
+- SOLID - how to avoid strong coupling in code
 
 ## Software Testing
-- Writing unit tests
+- Writing unit tests (GTEST)
 - Basic knowledge of unit test frameworks
-
 
 # Mid C++ Developer - List of Essential Skills
 
@@ -40,14 +41,25 @@
   - using type traits in generic code
   - writing custom type traits
   - `if constexpr` (C++17) in generic code
-- Lambda expressions (closures)
-- STL containers
+- Lambda expressions (closures, capturing variables)
+- STL containers (performance characteristics)
   - vector, deque, list
   - associative containers
 - STL algorithms
   - find, sort, transform, etc.
   - writing custom generic algorithms
+  - parallel algorithms (C++17)
 - Namespace & ADL (Argument Dependency Lookup)
+
+### Multithreading & Concurrency (basics)
+- `std::thread` & `std::jthread`
+- Synchronization primitives:
+  - mutexes
+  - lock guards
+  - condition variables
+  - latches
+- Race conditions & deadlocks
+- Working with sanitizers
 
 ## Software Engineering Skills
 - Basic knowledge of design patterns
@@ -59,6 +71,10 @@
   - using sanitizers/profilers to find memory leaks
 - Experience with software testing frameworks
   - GTest
+  - GMock - writing mocks and stubs (difference between them in unit tests)
+- Doxygen - generating documentation from source code comments
+- SOLID - advanced understanding and application
+
 
 # Senior C++ Developer - List of Essential Skills
 
@@ -71,6 +87,7 @@
 - Move semantics, perfect forwarding, reference collapsing
 
 ### Templates (Advanced Level)
+- Variadic templates & fold expressions
 - SFINAE & concepts
 - CRTP (Curiously Recurring Template Pattern)
 - Type traits & metaprogramming
@@ -78,12 +95,6 @@
 - `constexpr` programming and compile-time computation
 
 ### Multithreading & Concurrency
-- `std::thread` & `std::jthread`
-- Synchronization primitives:
-  - mutexes
-  - lock guards
-  - condition variables
-  - latches
 - Memory model:
   - data races
   - atomics & fences
@@ -103,6 +114,7 @@
 
 ### API Design Skills
 - API design (stable, minimal, expressive)
+- SOLID & Dependency Injection
 - Error handling models:
   - status codes
   - exceptions
