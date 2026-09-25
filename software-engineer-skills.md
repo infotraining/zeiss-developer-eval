@@ -125,6 +125,12 @@
 ### Design Patterns
 - Knowledge and practical use of senior-level design patterns
 
+### Architecture & System Design
+- Designing scalable and maintainable systems
+- Understanding of software architecture patterns (e.g., layered, microservices, event-driven)
+- Performance considerations and trade-offs
+- System-level debugging and profiling
+
 ### Senior-Level Soft Skills
 - Mentoring juniors and mid-levels
 - Leading code reviews with clarity
